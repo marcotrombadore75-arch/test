@@ -1,0 +1,24 @@
+CassaIQ — sito completo, versione 25 settembre 2026
+
+COME PROVARLO
+1. Estrai tutto il contenuto dello ZIP in una cartella.
+2. Apri index.html con Safari, Chrome o un altro browser aggiornato.
+3. Mantieni insieme le cartelle assets e media e tutti i file CSS e JavaScript.
+
+Questa versione include gli sfondi sabbia alternati, i nuovi titoli,
+i pulsanti più leggeri, il menu mobile con sola icona e la sezione
+A chi si rivolge subito dopo il video.
+
+Sono inclusi immagini, font, video, demo interattiva e pagine informative.
+I pulsanti degli store e del Client rimandano ai collegamenti online.
+La richiesta informazioni prepara un messaggio su WhatsApp o via email:
+l'invio viene completato dall'utente nell'app scelta.
+Il contatore visite è disattivato durante le prove locali e resta configurato
+per il dominio cassaiq.it.
+
+ANTEPRIMA ONLINE
+https://cassaiq-nuovo.marcotrombadore75.chatgpt.site
+
+PER CARICARLO SUL TUO HOSTING
+Carica i contenuti della cartella estratta, mantenendo la struttura.
+Il file index.html deve trovarsi nella cartella principale del sito.

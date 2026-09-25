@@ -1,0 +1,19 @@
+/* FAQ imported from the previous design; styles stay within this section. */
+.editorial-faq{--ink:#183b32;--muted:#647069;--sand:#9a805d;--line:#d9dcd1;background:#f7fbfc;color:var(--ink);font-family:'DM Sans',Arial,sans-serif;font-synthesis:none;padding:75px 0 110px;border-top:1px solid var(--line)}
+.editorial-faq .faq-inner{width:min(1180px,calc(100% - 64px));margin-inline:auto;display:grid;grid-template-columns:1fr 1.4fr;gap:90px}
+.editorial-faq .eyebrow{font-size:.75rem;font-weight:600;letter-spacing:.17em;line-height:1.5;display:block;color:var(--ink);margin:0}
+.editorial-faq h2{font-family:'DM Serif Display',Georgia,serif;font-size:clamp(2.45rem,4.25vw,4.1rem);font-weight:400;line-height:1.07;letter-spacing:-.045em;margin:25px 0 28px;text-align:left}
+.editorial-faq h2 em{font-weight:400;color:var(--sand)}
+.editorial-faq .faq-list{display:block;margin:0}
+.editorial-faq details{border-bottom:1px solid var(--line)}
+.editorial-faq details:first-child{border-top:1px solid var(--line)}
+.editorial-faq summary{list-style:none;cursor:pointer;padding:23px 0;display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:1rem;font-weight:500;line-height:1.5}
+.editorial-faq summary::-webkit-details-marker{display:none}
+.editorial-faq summary span{font-size:1.3rem;color:var(--sand);flex-shrink:0}
+.editorial-faq details[open] summary span{transform:rotate(45deg)}
+.editorial-faq details p{font-size:.9375rem;color:var(--muted);padding:0 30px 22px 0;margin:0;line-height:1.65}
+.editorial-faq a{color:inherit;text-decoration:underline;text-underline-offset:3px}
+.editorial-faq summary:focus-visible,.editorial-faq a:focus-visible{outline:3px solid #a68145;outline-offset:5px}
+@media(max-width:1100px){.editorial-faq{padding-bottom:80px}.editorial-faq .faq-inner{gap:55px}}
+@media(max-width:760px){.editorial-faq{padding:50px 0 65px}.editorial-faq .faq-inner{width:calc(100% - 40px);display:block}.editorial-faq h2 br{display:none}.editorial-faq .eyebrow{font-size:.6875rem;letter-spacing:.13em}.editorial-faq .faq-list{margin-top:30px}.editorial-faq summary{font-size:.9375rem;padding-block:21px}.editorial-faq details p{font-size:.875rem;padding-right:10px}}
+@media(max-width:390px){.editorial-faq .faq-inner{width:calc(100% - 32px)}}

@@ -1,0 +1,115 @@
+/* Warm details from the FAQ, preserving the site's existing backgrounds. */
+:root{--accent:#9b8b76;--accent-text:#6f6558;--accent-light:#d5c9b7;--accent-soft:#f5f2ed;--accent-fill:#ede7df;--accent-border:#c9bdac;--accent-hover:#e4dcd0}
+.editorial-footer,.editorial-faq,.inquiry-dialog{--sand:var(--accent)}
+.accent-text{color:var(--accent)}
+body main .eyebrow{color:var(--accent-text)}
+.trial-note span::before,.ticks li::before,.fc2 strong,.client-bubble strong,.client-arrow{color:var(--accent-text)}
+.mode-icon,.dco .mode-icon,.takeaway-list li::before{color:var(--accent-text);background:var(--accent-soft)}
+.store-date{color:var(--accent-text);background:var(--accent-soft)}
+.navlinks a:not(.nav-cta):hover,.btn-secondary:hover{color:var(--accent-text)}
+.btn-secondary:hover{border-color:var(--accent)}
+.client-section .accent-text,.client-section .eyebrow,.launch-banner strong,.price-card .ticks li::before{color:var(--accent-light)}
+.client-list li::before{background:var(--accent-light);color:#123542}
+.editorial-footer .closing-heading .eyebrow,.editorial-footer .footer-columns h3,.editorial-footer .closing-heading h2 em{color:var(--accent-light)}
+.editorial-footer .footer-inquiry{border-color:var(--accent-light)}
+.editorial-footer .footer-inquiry span,.editorial-footer .footer-columns a:hover,.editorial-footer .footer-question:hover{color:var(--accent-light)}
+.inquiry-dialog>.eyebrow,.inquiry-dialog .inquiry-back,.inquiry-dialog .inquiry-choice::after{color:var(--accent-text)}
+.inquiry-dialog .inquiry-progress span.filled{background:var(--accent)}
+.inquiry-dialog .inquiry-choice:hover{border-color:var(--accent);background:var(--accent-soft)}
+.editorial-faq h2 em,.editorial-faq summary span{color:var(--accent)}
+@media(max-width:900px){.mobile-menu-toggle{width:44px;min-width:44px;height:44px;justify-content:center;padding:0;gap:0}}
+
+/* Lighter controls and quieter decorative colors. */
+.nav-cta,.btn-primary,.btn-secondary,
+.contact-cta-section .btn-primary,.download-trial .btn-primary,.trial .btn-primary,
+.editorial-footer .footer-inquiry,.inquiry-dialog .button,
+.inquiry-dialog .inquiry-channels .button{
+  min-height:44px;min-width:0;padding:10px 17px;border:1px solid var(--accent-border);
+  border-radius:7px;font-size:14px;font-weight:500;line-height:1.5;
+  letter-spacing:0;box-shadow:none;gap:14px;
+  transition:background .18s,color .18s,border-color .18s;
+}
+.btn-primary,.inquiry-dialog .button{background:var(--accent-fill);color:var(--accent-text)}
+.nav-cta,.btn-secondary,.inquiry-dialog .button.outline{background:transparent;color:var(--accent-text);border-color:var(--accent-border)}
+.btn-primary::after{content:none;animation:none}
+.nav-cta:hover,.btn-primary:hover,.btn-secondary:hover,
+.inquiry-dialog .button:hover,.inquiry-dialog .button.outline:hover{
+  transform:none;box-shadow:none;background:var(--accent-hover);border-color:#b9ad9b;color:#665c4e;
+}
+.hero-actions{gap:10px}
+.price-card .btn-primary,.download-trial .btn-primary,.trial .btn-primary{
+  background:var(--accent-fill);color:var(--accent-text);border-color:var(--accent-border);
+}
+.price-card .btn-primary{width:auto;max-width:100%;margin-top:24px}
+.price-card .btn-primary:hover,.download-trial .btn-primary:hover,.trial .btn-primary:hover{background:var(--accent-hover);color:#665c4e;border-color:var(--accent-hover)}
+.editorial-footer .footer-inquiry{background:transparent;color:#eee9e1;border-color:#b5a998;font-size:.75rem;letter-spacing:.045em;gap:20px}
+.editorial-footer .footer-inquiry:hover{background:#ffffff08;border-color:var(--accent-light)}
+.inquiry-dialog .inquiry-channels .button{font-size:.6875rem;letter-spacing:.025em;padding:11px 15px}
+.inquiry-dialog .inquiry-choice{min-height:52px;padding:12px 16px;font-weight:400;border-color:#d3ccc2;border-radius:7px}
+.inquiry-dialog .inquiry-choice:hover,.inquiry-dialog .inquiry-choice[aria-pressed=true],.inquiry-dialog .inquiry-choice:active{background:var(--accent-soft);border-color:var(--accent)}
+.inquiry-dialog .inquiry-choice>span:last-child{color:var(--accent-text)}
+.mobile-menu-toggle,.mobile-menu-toggle:hover,.mobile-menu-toggle:active{
+  background:transparent;color:#123542;border:0;border-radius:0;box-shadow:none;
+}
+.mobile-menu-toggle svg{width:24px;height:24px;stroke-width:1.6}
+.mobile-menu-toggle:focus-visible,.navlinks a:focus-visible,.btn-primary:focus-visible,.btn-secondary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.navlinks a:not(.nav-cta):hover{background:var(--accent-soft);color:var(--accent-text)}
+/* Keep the pale site surfaces and deep blue panels, mute vivid cyan/green decoration. */
+.hero{background:radial-gradient(circle at 82% 20%,rgba(155,139,118,.07),transparent 28%),linear-gradient(180deg,#fbfeff,#f4fafc)}
+.hero::before,.hero::after{background:radial-gradient(circle,rgba(155,139,118,.08),transparent 70%)}
+.hero-brand-dark,.hero-brand-accent,.hero-brand-dot{color:#123542}
+.blob,.phone-blob,.takeaway-orb{background:linear-gradient(135deg,#e8eef0,#eeebe6)}
+.video-shell::before{background:linear-gradient(135deg,rgba(18,53,66,.07),rgba(155,139,118,.12))}
+.client-section{background:linear-gradient(135deg,#123542,#1a404b)}
+.client-section::before,.price-card::after{background:rgba(213,201,183,.08)}
+.client-section::after{background:rgba(213,201,183,.05)}
+.client-real-arrow{width:56px;height:56px;background:#faf8f4;color:var(--accent-text);font-size:27px;font-weight:500;box-shadow:0 8px 20px rgba(0,0,0,.12)}
+.download-trial{background:#123542;box-shadow:0 12px 30px rgba(18,53,66,.1)}
+.trial::before,.trial::after{background:radial-gradient(circle,rgba(213,201,183,.08),transparent 70%)}
+.mode-card.dco{background:linear-gradient(145deg,#fff,#f7f8f6);border-color:#dbe1dc}
+.legal-note{border-color:#e1dbd2;color:#65716b}
+.platforms{background:linear-gradient(180deg,#fbfeff,#f4f8f9)}
+@media(max-width:600px){
+  .hero-actions{justify-content:center}
+  .hero-actions .btn-primary,.hero-actions .btn-secondary{font-size:13px;padding:10px 14px}
+  .client-real-arrow{width:46px;height:46px;font-size:23px}
+  .editorial-footer .footer-inquiry{min-height:44px;padding:11px 16px;font-size:.6875rem}
+}
+
+/* A light sand wash for every light section; blue panels retain their colors. */
+:root{--surface-sand:#faf8f4;--surface-card:#fffdf9;--line:#e5ded3;--paper:var(--surface-sand);--bg:var(--surface-sand)}
+body{background:var(--surface-sand)}
+.hero,.video-section,.audience,.contact-cta-section,.phone-section,.modes,
+.takeaway-section,#prezzo,.platforms,.editorial-faq{background:var(--surface-sand)}
+.editorial-faq{--line:#e5ded3}
+.site-header{background:rgba(250,248,244,.88)}
+.site-header.scrolled{background:rgba(250,248,244,.96);border-color:rgba(229,222,211,.8)}
+.blob,.phone-blob,.takeaway-orb{background:linear-gradient(135deg,#f0e9df,#f7f3ed)}
+.video-shell::before{background:linear-gradient(135deg,rgba(213,201,183,.16),rgba(155,139,118,.12))}
+.mode-card,.mode-card.dco,.aud-card,.store-card,.float-card,
+.video-points span,.feature-chips span,.takeaway-note{background:var(--surface-card);border-color:var(--line)}
+.inquiry-dialog{--paper:var(--surface-sand);background:var(--surface-sand)}
+@media(max-width:900px){.navlinks{background:var(--surface-card);border-color:var(--line)}}
+
+/* Gentle section rhythm and editorial typography inspired by the reference. */
+:root{--surface-sand-alt:#f4f0e9;--site-serif:'DM Serif Display',Georgia,serif;--site-sans:'DM Sans',Arial,sans-serif}
+.video-section,.contact-cta-section,.modes,#prezzo,.editorial-faq{background:var(--surface-sand-alt)}
+body{font-family:var(--site-sans)}
+.hero h1,body main h2,.mode-card h3,.download-trial strong{
+  font-family:var(--site-serif);font-weight:400;letter-spacing:-.035em;line-height:1.1;
+}
+.hero h1{margin-bottom:24px}
+.hero-question,.hero-brand{font-family:var(--site-serif);font-weight:400;letter-spacing:-.045em;line-height:1.04}
+.hero-question{font-size:clamp(48px,5.4vw,74px)}
+.hero-brand{font-size:clamp(62px,7vw,94px);margin-top:12px}
+.hero-question em,body main h2 .accent-text{font-family:var(--site-serif);font-style:italic;font-weight:400}
+.hero-question em{color:var(--accent)}
+.hero p{font-weight:400;font-size:20px;line-height:1.6}
+.mode-card h3{font-size:28px}
+.download-trial strong{font-size:30px}
+@media(max-width:600px){
+  .hero-question{font-size:clamp(42px,11vw,60px);letter-spacing:-.035em}
+  .hero-brand{font-size:clamp(60px,16vw,82px);letter-spacing:-.045em}
+  .hero p{font-size:18px}
+  .download-trial strong{font-size:25px}
+}
