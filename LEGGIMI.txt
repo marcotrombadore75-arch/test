@@ -1,0 +1,5 @@
+CassaIQ - 27 settembre 2026
+
+Estrarre lo ZIP e caricare tutti i file nella cartella del sito mantenendo la struttura delle cartelle assets e media. Sovrascrivere i file precedenti e conservare eventuali download gia presenti.
+
+Corrette spaziature, ritorni a capo e spunte duplicate nel nome CassaIQ.

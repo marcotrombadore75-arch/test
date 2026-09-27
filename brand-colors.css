@@ -1,0 +1,5 @@
+/* Keep the complete product name together, with the original logo cyan. */
+.brand-name{display:inline-block;white-space:nowrap;overflow-wrap:normal;word-break:normal;text-indent:0}
+.brand-word,.hero-brand{white-space:nowrap;overflow-wrap:normal;word-break:normal}
+.brand-iq,.brand .brand-iq,.brand-word .brand-iq,.hero-brand .brand-iq,
+.editorial-footer .brand .brand-iq{color:#2fa8d7}
